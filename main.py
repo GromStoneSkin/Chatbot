@@ -11,29 +11,37 @@
 #      for begruessung in list:
 #          print(begruessung)
 
-#todo Groß- und Kleinschreibung sollte bei "eingabe" uninteressant sein
+# todo Groß- und Kleinschreibung sollte bei "eingabe" uninteressant sein
+from random import randrange
+
+
 def antwort_finden(eingabe):
-    if eingabe == "Hallo":   #todo Eweiterung mit Liste von Begrüßungen
-        return "Hey"    #todo Eweiterung mit Liste von Begrüßungen
+    begruessung = ['Hallo', 'Hey', 'Guten Tag', 'Hi', 'Moin']
+    if eingabe in begruessung:
+        return begruessung[randrange(len(begruessung))]   # Zufällige Antwort
     else:
-        return "Ich verstehe Sie nicht."    #todo Eweiterung mit Liste von Entschuldigungen
+        return "Ich habe Sie nicht verstanden."    # todo Eweiterung mit Liste von Entschuldigungen
+
 
 def simple_chat_bot():
-    eingabe = ""    #ist lokale Variable?
+    eingabe = ""    # ist lokale Variable?
     verabschiedung = ['Tschüss', 'Bye', 'Auf Wiedersehen']
-    while eingabe not in (verabschiedung):   #Erweiterung mit Liste von Verabschiedungen ist erledigt
+    while eingabe not in verabschiedung:
         eingabe = input()
         antwort = antwort_finden(eingabe)
         print(antwort)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
+
+if __name__ == '__main__':   # Die Konstruktion if __name__ == ”__main__” wird eingesetzt um eine Python Datei als eigenständiges Programm zu nutzen und einzelne Elemente dieser Datei importierbar zu machen.
+
+    # Beispiele
+
     # print_hi('PyCharm')
-    #                0       1      2
-    # begruessen = ['hello', 'hi', 'hallo']  # hey
-    # # begruessen.append('hey')
-    # begruessen.insert(0, 'hey')
-    # begruessen.sort()
+    #                  0      1       2
+    # begruessen = ['hello', 'hi', 'hallo']
+    # begruessen.append('hey')    # hey wird an das Ende von begruessen angehangt
+    # begruessen.insert(0, 'hey')    # hey wird an den start von begruessen angehängt
+    # begruessen.sort()    # sortiert begruessen alphabetisch
     # print_list(begruessen)
     # input1 = input() # Eingabe mit input()
     # print(input1)    # Ausgabe mit print()

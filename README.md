@@ -22,10 +22,12 @@
 
 
 ## Sitzung 02
-### 0X.05.2021
+### XX.05.2021
 #### Fragen:
 * Wann nutzt man mehr als eine .py-Datei?
 * Synct man das ganze Project mit GitHub?
+* Gibt es einen Grund, dass *if \_\_name\_\_ == '\_\_main\_\_':* am Ende des Programms steht?
+* Nutzung von lokalen und globalen Variablen
 #### Verlauf:
 #### ToDo's:
 
