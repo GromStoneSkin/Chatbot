@@ -26,7 +26,6 @@
 #### Fragen:
 * Wann nutzt man mehr als eine .py-Datei?
 * Synct man das ganze Project mit GitHub?
-* Wie kann ich das Projekt auf einem anderen PC so einrichten dass es beim Syncronisieren nicht die lokale Konfiguration zerhaut?
 #### Verlauf:
 #### ToDo's:
 
