@@ -1,7 +1,7 @@
-##Sitzung 01 
-###02.05.2021
+## Sitzung 01 
+### 02.05.2021
 
-####Verlauf:
+#### Verlauf:
 * Oberlfäche PyCharm erkundet
 * pip package installer kennengelernt
 * stackoverflow angesprochen um bekannte lösungen finden
@@ -10,7 +10,7 @@
 * Grundstrucktur geschaffen
 * Ziele für die nächsten Sitzungen definiert
 
-####ToDo's:
+#### ToDo's:
 - [ ] Tutorial an dem wir uns orientieren könnenfinden
 - [x] ToDo's in Skript bearbeiten
 - [ ] Skript erweitern 
@@ -21,18 +21,18 @@
 
 
 
-##Sitzung 02
-###0X.05.2021
-####Fragen:
+## Sitzung 02
+### 0X.05.2021
+#### Fragen:
 * Wann nutzt man mehr als eine .py-Datei?
 * Synct man das ganze Project mit GitHub?
 * Wie kann ich das Projekt auf einem anderen PC so einrichten dass es beim Syncronisieren nicht die lokale Konfiguration zerhaut?
-####Verlauf:
-####ToDo's:
+#### Verlauf:
+#### ToDo's:
 
 
-##Sitzung XX
-###XX.XX.2021
-####Fragen:
-####Verlauf:
-####ToDo's:
+## Sitzung XX
+### XX.XX.2021
+#### Fragen:
+#### Verlauf:
+#### ToDo's:
