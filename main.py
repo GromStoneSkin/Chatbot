@@ -10,7 +10,8 @@
 # def print_list(list):
 #      for begruessung in list:
 #          print(begruessung)
-#todo Groß- und Kleinschreibung sollte nur bei "eingabe" uninteressant sein
+
+#todo Groß- und Kleinschreibung sollte bei "eingabe" uninteressant sein
 def antwort_finden(eingabe):
     if eingabe == "Hallo":   #todo Eweiterung mit Liste von Begrüßungen
         return "Hey"    #todo Eweiterung mit Liste von Begrüßungen
