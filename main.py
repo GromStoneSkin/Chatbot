@@ -13,7 +13,7 @@
 # input1 = input() # Eingabe mit input()
 # print(input1)    # Ausgabe mit print()
 
-import pickle
+import pickle    # wird eventuell wieder entfernt
 from random import randrange
 
 # Variablen die in mehreren Bereichen genutzt werden
