@@ -13,6 +13,33 @@
 # input1 = input() # Eingabe mit input()
 # print(input1)    # Ausgabe mit print()
 
+# Stuckturvorlage main
+# Listen/Dictionaries? werden mit Dateiinhalten gefüllt
+# Schleife
+    # Programm bekommt Eingabe
+    # Eingabe wird auf Abbruchbedingung geprüft
+    # Programm ruft Funktion zur findung einer Antwort auf
+# Listen/Dictionaries? werden in Dateien gespeichert
+
+# Struckturvorlage antwort_finden
+# eingabe wird analysiert
+# if eingabe ist in liste von Antwortkategorien
+    # passende Antwortfunktion wird aufgerufen
+# else
+    # zufällige entschuldigung
+    # fragen ob die frage zu einer der Vorhandenen Antwortkategorieren passt
+    # if ja
+        # zu passender Liste/Dictionary? hinzufügen
+    # else
+        # fragen ob neue Antwortkategorie erstellt werden soll
+        # if ja
+            # erstellen
+            # nach passenden Antworten fragen
+        #else
+            #return?
+
+#
+
 import pickle    # wird eventuell wieder entfernt
 from random import randrange
 
@@ -26,9 +53,9 @@ def wegschreiben(liste, dateiname):
         pickle.dump(liste, tmp)
 
 
-def einlesen(dateiname, liste):
-    with open(dateiname, 'rb') as tmp:
-        liste = pickle.load(tmp)
+# def einlesen(dateiname, liste):
+    # with open(dateiname, 'rb') as tmp:
+        # liste = pickle.load(tmp)
 
 
 def antwort_finden(eingabe):    # todo Groß- und Kleinschreibung sollte bei "eingabe" uninteressant sein
