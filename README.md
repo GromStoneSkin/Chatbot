@@ -11,10 +11,10 @@
 * Ziele für die nächsten Sitzungen definiert
 
 #### ToDo's:
-- [ ] Tutorial an dem wir uns orientieren könnenfinden
+- [x] Tutorial an dem wir uns orientieren könnenfinden
 - [x] ToDo's in Skript bearbeiten
-- [ ] Skript erweitern 
-- [ ] GitHub kennenlernen
+- [ ] Program erweitern 
+- [x] GitHub kennenlernen
 - [x] Repository erstellen
 - [ ] Skript weiterlesen
 
