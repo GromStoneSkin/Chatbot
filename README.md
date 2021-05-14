@@ -44,7 +44,6 @@ Als Orientierungsmatierial festgelegt:
 - [ ] pipenv ansehen
 - [ ] https://www.data-science-architect.de/__name____main__/
 - [ ] JSON angucken: https://www.w3schools.com/python/python_json.asp
-- [ ] 
 - [ ] Skript weiterlesen
 
 ## Sitzung XX

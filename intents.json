@@ -1,0 +1,28 @@
+{"intents": [
+  {"tag": "greeting",
+    "petterns": [""],
+    "responses": [""],
+    "context": [""]
+  },
+    {"tag": "goodbye",
+    "petterns": [""],
+    "responses": [""],
+    "context": [""]
+  },
+    {"tag": "thanks",
+    "petterns": [""],
+    "responses": [""],
+    "context": [""]
+  },
+    {"tag": "noanswer",
+    "petterns": [""],
+    "responses": [""],
+    "context": [""]
+  },
+    {"tag": "posibilities",
+    "petterns": [""],
+    "responses": [""],
+    "context": [""]
+  }
+]
+}
