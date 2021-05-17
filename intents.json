@@ -1,12 +1,12 @@
 {"intents": [
-  {"tag": "greeting",
-    "petterns": [""],
-    "responses": [""],
+  {"tag": "begruessung",
+    "petterns": ["Hallo", "Hey", "Guten Tag", "Hi", "Moin"],
+    "responses": ["Hallo", "Hey", "Guten Tag", "Hi", "Moin"],
     "context": [""]
   },
-    {"tag": "goodbye",
-    "petterns": [""],
-    "responses": [""],
+    {"tag": "verabschiedung",
+    "petterns": ["Tschüss", "Bye", "Auf Wiedersehen", "Bis Bald"],
+    "responses": ["Tschüss", "Bye", "Auf Wiedersehen", "Bis Bald"],
     "context": [""]
   },
     {"tag": "thanks",
